@@ -1,0 +1,17 @@
+backups
+crash-reports
+downloads
+journeymaps
+local
+logs
+mods
+patchouli_books
+resourcepacks
+saves
+screenshot
+tconplanner
+.curseclient
+minecraftinstance.json
+patchouli_data.json
+usercache.json
+usernamecache.json
