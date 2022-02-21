@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "contenttweaker:sapphire_ore",
+      "filler": "blue_skies:turquoise_stone",
+      "minY": 1,
+      "maxY": 80,
+      "maxVeinSize": 8,
+      "spawnRate": 3.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}
