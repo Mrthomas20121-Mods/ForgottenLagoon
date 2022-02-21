@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "malum:yellow_ether",
+        "malum:orange_ether",
+		"malum:magenta_ether",
+		"malum:light_blue_ether",
+		"malum:lime_ether",
+		"malum:pink_ether",
+		"malum:cyan_ether",
+		"malum:purple_ether",
+		"malum:blue_ether",
+		"malum:brown_ether",
+		"malum:green_ether",
+		"malum:red_ether"
+    ]
+}
