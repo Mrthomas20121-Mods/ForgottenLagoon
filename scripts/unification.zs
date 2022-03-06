@@ -6,7 +6,7 @@ var itemsToRemoveAndHide = [
     <item:tconstruct:copper_nugget>,
     <item:tconstruct:copper_block>,
     <item:eidolon:lead_ingot>,
-    <item:eidlon:lead_nugget>,
+    <item:eidolon:lead_nugget>,
     <item:eidolon:lead_block>,
     <item:eidolon:lead_ore>,
     <item:titanium:gold_gear>,
@@ -91,6 +91,9 @@ var itemsToRemoveAndHide = [
 <tag:items:forge:gears/iron>.remove(<item:titanium:iron_gear>);
 <tag:items:forge:gears/diamond>.remove(<item:titanium:diamond_gear>);
 
+craftingTable.removeByName("hostilenetworks:living_matter/overworldian/iron_ingot");
+craftingTable.removeByName("hostilenetworks:living_matter/overworldian/carrot");
+craftingTable.removeByName("hostilenetworks:living_matter/overworldian/potato");
 blastFurnace.removeByName("tconstruct:common/materials/copper_ingot_blasting");
 furnace.removeByName("tconstruct:common/materials/copper_ingot_smelting");
 blastFurnace.removeByName("thermal:smelting/lead_ingot_from_dust_blasting");

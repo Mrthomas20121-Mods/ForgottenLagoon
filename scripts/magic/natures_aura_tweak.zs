@@ -1,0 +1,2 @@
+<recipetype:naturesaura:altar>.addRecipe("livingrock", <item:naturesaura:infused_stone>, <item:botania:livingrock>, "naturesaura:overworld", 10, 10);
+<recipetype:naturesaura:altar>.addRecipe("livingrock_nether", <item:naturesaura:infused_stone>, <item:botania:livingrock>*4, "naturesaura:nether", 10, 10);
