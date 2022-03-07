@@ -85,7 +85,7 @@
 	matterCannon = 200000
 
 [worldGen]
-	quartzOresClusterAmount = 20
+	quartzOresClusterAmount = 0
 	meteoriteBiomeBlacklist = []
 	quartzOresPerCluster = 4
 	quartzOresBiomeBlacklist = []

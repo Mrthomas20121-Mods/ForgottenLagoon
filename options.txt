@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
+enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -124,11 +124,11 @@ key_key.curios.open.desc:key.keyboard.g
 key_key.botania_corporea_request:key.keyboard.c
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.inventorysorter.itemout:key.mouse.102
-key_key.inventorysorter.itemin:key.mouse.100
 key_key.inventorysorter.sort:key.mouse.middle
+key_key.inventorysorter.itemin:key.mouse.100
+key_key.openManual:key.keyboard.f1
 key_key.nextDestination:key.keyboard.right.bracket
 key_key.prevDestination:key.keyboard.left.bracket
-key_key.openManual:key.keyboard.f1
 key_key.toastcontrol.clear:key.keyboard.j
 key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown
 key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown

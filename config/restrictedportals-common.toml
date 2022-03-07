@@ -7,11 +7,11 @@
 	#Description for the Advancements
 	description = "Obtain a %item%"
 	#Comma seperated list of Dimension Resource Names
-	dimresname = "minecraft:the_nether,minecraft:the_end"
+	dimresname = "minecraft:the_nether,minecraft:the_end,atum:atum"
 	#Title for the Advancements
 	craftedmessage = "%dim% Unlocked!"
 	#Comma seperated list of items that when crafted unlock the corresponding dimension
-	craftitems = "minecraft:flint_and_steel,minecraft:ender_eye"
+	craftitems = "minecraft:flint_and_steel,minecraft:ender_eye,atum:scarab"
 	#Comma seperated list of Dimension Display Names
-	dimnames = "Nether,End"
+	dimnames = "Nether,End,Atum"
 
