@@ -31,7 +31,9 @@ var itemsToRemoveAndHide = [
     <item:tconstruct:copper_ingot>,
     <item:tconstruct:copper_nugget>,
     <item:tconstruct:copper_block>,
-    <item:appliedenergistics2:facade>
+    <item:appliedenergistics2:facade>,
+    <item:botania:orechid>,
+    <item:botania:orechid_ignem>,
 ] as IItemStack[];
 
 // copper
@@ -106,8 +108,10 @@ for item in itemsToRemoveAndHide {
     craftingTable.removeRecipe(item);
 }
 
-// hide alchemy category
+// hide categories
 JEI.hideCategory("blue_skies:alchemy");
+JEI.hideCategory("botania:orechid");
+JEI.hideCategory("botania:orechid_ignem");
 
 // remove recipe for mystical flowers
 craftingTable.removeByRegex("botania:petal.*");

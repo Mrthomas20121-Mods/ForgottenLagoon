@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "thermal:oil_sand"
+	},
+	"result": {
+		"fluid": "thermal:crude_oil",
+		"amount": 250
+	},
+	"temperature": 800,
+	"time": 80
+}
