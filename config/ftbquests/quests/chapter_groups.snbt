@@ -1,3 +1,7 @@
 {
-	chapter_groups: [{ id: "0A4F35E50AD40BE3", title: "Chapter 1: Early game" }]
+	chapter_groups: [
+		{ id: "48C5951CC7B2B922", title: "Bounties Board" }
+		{ id: "0A4F35E50AD40BE3", title: "Chapter 1: The Overworld" }
+		{ id: "703E094B82BD2A66", title: "Chapter 2 : Blue Skies and Atum" }
+	]
 }

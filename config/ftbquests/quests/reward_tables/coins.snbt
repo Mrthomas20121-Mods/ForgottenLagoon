@@ -1,0 +1,7 @@
+{
+	id: "2A04E2830EDD6C87"
+	order_index: 0
+	title: "Coins"
+	loot_size: 1
+	rewards: [{ item: "atum:coin_gold", count: 5 }]
+}
