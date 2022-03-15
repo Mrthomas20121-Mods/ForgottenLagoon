@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "contenttweaker:strange_aquamarine_shale",
+        "filler": "atum:sand",
+        "minY": 10,
+        "maxY": 246,
+        "maxVeinSize": 4,
+        "spawnRate": 8.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "contenttweaker:ruby_ore",
+        "contenttweaker:sapphire_ore",
+		"contenttweaker:strange_aquamarine_shale",
+		"contenttweaker:crystal_aquamarine_shale",
+		"contenttweaker:midnight_aquamarine_shale"
+    ]
+}

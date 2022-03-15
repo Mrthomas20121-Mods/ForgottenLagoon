@@ -1,3 +1,4 @@
+craftingTable.removeByName("redstone_arsenal:materials/flux_ingot_fire_charge_from_dust");
 // remove sand and red sand recipe
 <recipetype:thermal:centrifuge>.removeRecipe([<item:minecraft:sand>, <item:thermal:bitumen>, <item:thermal:tar>], [<fluid:thermal:crude_oil>]);
 <recipetype:thermal:centrifuge>.removeRecipe([<item:minecraft:red_sand>, <item:thermal:bitumen>, <item:thermal:tar>], [<fluid:thermal:crude_oil>]);

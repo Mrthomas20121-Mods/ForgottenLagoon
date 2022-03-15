@@ -15,211 +15,206 @@
 			y: 0.0d
 			shape: "rsquare"
 			subtitle: "This is the start of the journey!"
+			description: [
+				"Things to note in this modpack :"
+				"&e- Vanilla Tools do not works and only used in crafting. You will use Tinkers Tools instead."
+				""
+				"&e- Dimensions are locked behind certain items(You can create the portals but not go through it). See the Dimensions Chapter for more information."
+				""
+			]
 			size: 1.2d
 			id: "46896967E481ADB5"
 			tasks: [{
 				id: "20CDDB0BEABBB291"
 				type: "checkmark"
 			}]
-			rewards: [
-				{
-					id: "175C44C657939D38"
-					type: "item"
-					item: {
-						id: "akashictome:tome"
-						Count: 1b
-						tag: {
-							"akashictome:is_morphing": 1b
-							"akashictome:data": {
-								tconstruct: {
-									id: "tconstruct:encyclopedia"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "Encyclopedia of Tinkering"
-										}
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Encyclopedia of Tinkering\"}]}"
-										}
+			rewards: [{
+				id: "175C44C657939D38"
+				type: "item"
+				item: {
+					id: "akashictome:tome"
+					Count: 1b
+					tag: {
+						"akashictome:is_morphing": 1b
+						"akashictome:data": {
+							tconstruct: {
+								id: "tconstruct:encyclopedia"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Encyclopedia of Tinkering"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Encyclopedia of Tinkering\"}]}"
 									}
 								}
-								integratedtunnels: {
-									id: "integrateddynamics:on_the_dynamics_of_integration"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "On the Dynamics of Integration"
-										}
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"On the Dynamics of Integration\"}]}"
-										}
+							}
+							integratedtunnels: {
+								id: "integrateddynamics:on_the_dynamics_of_integration"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "On the Dynamics of Integration"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"On the Dynamics of Integration\"}]}"
 									}
 								}
-								astralsorcery: {
-									id: "astralsorcery:tome"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "Astral Tome"
-										}
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Astral Tome\"}]}"
-										}
+							}
+							astralsorcery: {
+								id: "astralsorcery:tome"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Astral Tome"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Astral Tome\"}]}"
 									}
 								}
-								theoneprobe: {
-									id: "theoneprobe:probenote"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "The One Probe Read Me"
-										}
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The One Probe Read Me\"}]}"
-										}
+							}
+							theoneprobe: {
+								id: "theoneprobe:probenote"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "The One Probe Read Me"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The One Probe Read Me\"}]}"
 									}
 								}
-								blue_skies: {
-									id: "blue_skies:blue_journal"
-									Count: 1b
-								}
-								ftbquests: {
-									id: "ftbquests:book"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "Quest Book"
-										}
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Quest Book\"}]}"
-										}
+							}
+							blue_skies: {
+								id: "blue_skies:blue_journal"
+								Count: 1b
+							}
+							ftbquests: {
+								id: "ftbquests:book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Quest Book"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Quest Book\"}]}"
 									}
 								}
-								naturesaura: {
-									id: "patchouli:guide_book"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "Book of Natural Aura"
-										}
-										"patchouli:book": "naturesaura:book"
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Book of Natural Aura\"}]}"
-										}
+							}
+							naturesaura: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Book of Natural Aura"
+									}
+									"patchouli:book": "naturesaura:book"
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Book of Natural Aura\"}]}"
 									}
 								}
-								fd_cookbook: {
-									id: "fd_cookbook:cook_book"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "Cookbook"
-										}
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Cookbook\"}]}"
-										}
+							}
+							fd_cookbook: {
+								id: "fd_cookbook:cook_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Cookbook"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Cookbook\"}]}"
 									}
 								}
-								eidolon: {
-									id: "eidolon:codex"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "Ars Ecclesia"
-										}
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Ars Ecclesia\"}]}"
-										}
+							}
+							eidolon: {
+								id: "eidolon:codex"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Ars Ecclesia"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Ars Ecclesia\"}]}"
 									}
 								}
-								littlelogistics: {
-									id: "patchouli:guide_book"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "Little Logistics Guide"
-										}
-										"patchouli:book": "littlelogistics:guide"
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Little Logistics Guide\"}]}"
-										}
+							}
+							littlelogistics: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Little Logistics Guide"
+									}
+									"patchouli:book": "littlelogistics:guide"
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Little Logistics Guide\"}]}"
 									}
 								}
-								bigreactors: {
-									id: "patchouli:guide_book"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "The Extreme Book"
-										}
-										"patchouli:book": "bigreactors:erguide"
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The Extreme Book\"}]}"
-										}
+							}
+							bigreactors: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "The Extreme Book"
+									}
+									"patchouli:book": "bigreactors:erguide"
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The Extreme Book\"}]}"
 									}
 								}
-								twilightforest: {
-									id: "patchouli:guide_book"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "Traveller's Logbook [WIP]"
-										}
-										"patchouli:book": "twilightforest:guide"
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Traveller's Logbook [WIP]\"}]}"
-										}
+							}
+							twilightforest: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Traveller's Logbook [WIP]"
+									}
+									"patchouli:book": "twilightforest:guide"
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Traveller's Logbook [WIP]\"}]}"
 									}
 								}
-								malum: {
-									id: "malum:encyclopedia_arcana"
-									Count: 1b
-									tag: {
-										"akashictome:displayName": {
-											text: "Encyclopedia Arcana"
-										}
-										"akashictome:is_morphing": 1b
-										display: {
-											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Encyclopedia Arcana\"}]}"
-										}
+							}
+							malum: {
+								id: "malum:encyclopedia_arcana"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Encyclopedia Arcana"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Encyclopedia Arcana\"}]}"
 									}
 								}
 							}
 						}
 					}
 				}
-				{
-					id: "253964E523FC035F"
-					type: "item"
-					item: {
-						id: "naturescompass:naturescompass"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
+			}]
 		}
 		{
 			title: "Runewood"
-			x: 0.0d
+			x: 7.0d
 			y: 0.0d
 			subtitle: "Magic in the air!"
 			description: [
 				"&cRunewood tree&r are the start to magic."
 				"&bSap&r can be harvested from the tree."
 			]
-			dependencies: ["46896967E481ADB5"]
 			id: "2D529B25090AEF58"
 			tasks: [
 				{
@@ -235,18 +230,81 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -2.5d
+			x: 7.0d
+			y: -1.5d
 			description: [
 				"&6Copper&r is a metal that get used a lot."
 				"Make sure to grab enough &6Copper&r."
 			]
-			dependencies: ["46896967E481ADB5"]
 			id: "20121A89897B3EF1"
 			tasks: [{
 				id: "5DA2DA0C9B8C065C"
 				type: "item"
 				item: "thermal:copper_ingot"
+			}]
+		}
+		{
+			title: "Natures Compass"
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: 2.0d
+			description: [
+				"This &aCompass&r will allow you find biomes."
+				"Useful to find early game &bMaterials&r."
+			]
+			dependencies: ["46896967E481ADB5"]
+			id: "022B9454B1126607"
+			tasks: [{
+				id: "005C81774B8BDC1D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "69B95B152CC3568D"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["The kiln is require to access Tinkers Tools"]
+			dependencies: ["46896967E481ADB5"]
+			id: "54C5ECB5A6FDB136"
+			tasks: [{
+				id: "4E43F572540889AF"
+				type: "item"
+				item: "ceramics:kiln"
+			}]
+			rewards: [{
+				id: "60BFA4A7A561D096"
+				type: "item"
+				item: "betterlands:claystone"
+				count: 12
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			description: [
+				"&eClaystone is the best source of seared stone."
+				""
+				"&eIt can be found in badlands biomes. &aLush badlands&e is the ideal biome to find Claystone."
+			]
+			id: "3752094F204A2813"
+			tasks: [{
+				id: "3B491E78B6A966D5"
+				type: "item"
+				title: "Claystone(Optional)"
+				item: "betterlands:claystone"
+				count: 16L
 			}]
 		}
 	]

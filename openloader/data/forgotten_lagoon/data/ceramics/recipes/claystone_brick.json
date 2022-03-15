@@ -1,0 +1,9 @@
+{
+    "type": "ceramics:kiln",
+    "ingredient": {
+      "item": "betterlands:claystone_bricks"
+    },
+    "result": "tconstruct:seared_bricks",
+    "experience": 0.1,
+    "cookingtime": 100
+  }

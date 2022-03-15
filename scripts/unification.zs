@@ -34,7 +34,22 @@ var itemsToRemoveAndHide = [
     <item:appliedenergistics2:facade>,
     <item:botania:orechid>,
     <item:botania:orechid_ignem>,
+    <item:appliedenergistics2:gold_dust>,
+    <item:appliedenergistics2:iron_dust>,
+    <item:bloodmagic:ironsand>,
+    <item:bloodmagic:goldsand>,
+    <item:bloodmagic:coalsand>
 ] as IItemStack[];
+
+// coal dust
+<tag:items:forge:dusts>.remove(<item:bloodmagic:coalsand>);
+<tag:items:forge:dusts/coal>.remove(<item:bloodmagic:coalsand>);
+// iron dust
+<tag:items:forge:dusts>.remove(<item:appliedenergistics2:iron_dust>, <item:bloodmagic:ironsand>);
+<tag:items:forge:dusts/iron>.remove(<item:appliedenergistics2:iron_dust>, <item:bloodmagic:ironsand>);
+// gold dust
+<tag:items:forge:dusts>.remove(<item:appliedenergistics2:gold_dust>, <item:bloodmagic:goldsand>);
+<tag:items:forge:dusts/gold>.remove(<item:appliedenergistics2:gold_dust>, <item:bloodmagic:goldsand>);
 
 // copper
 <tag:items:forge:ingots>.remove(<item:tconstruct:copper_ingot>);
@@ -103,6 +118,9 @@ furnace.removeByName("thermal:smelting/lead_ingot_from_dust_smelting");
 blastFurnace.removeByName("thermal:smelting/lead_ingot_from_ore_blasting");
 furnace.removeByName("thermal:smelting/lead_ingot_from_ore_smelting");
 
+furnace.removeByName("tconstruct:smeltery/scorched/scorched_brick");
+furnace.removeByName("tconstruct:smeltery/seared/seared_brick");
+
 for item in itemsToRemoveAndHide {
     JEI.hideItem(item);
     craftingTable.removeRecipe(item);
@@ -112,6 +130,8 @@ for item in itemsToRemoveAndHide {
 JEI.hideCategory("blue_skies:alchemy");
 JEI.hideCategory("botania:orechid");
 JEI.hideCategory("botania:orechid_ignem");
+JEI.hideCategory("appliedenergistics2:grinder");
+JEI.hideCategory("appliedenergistics2:appliedenergistics2.inscriber");
 
 // remove recipe for mystical flowers
 craftingTable.removeByRegex("botania:petal.*");

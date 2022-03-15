@@ -1,4 +1,7 @@
 {
 	"block.contenttweaker.sapphire_ore": "Sapphire Ore",
-	"block.contenttweaker.ruby_ore": "Ruby Ore"
+	"block.contenttweaker.ruby_ore": "Ruby Ore",
+	"block.contenttweaker.crystal_aquamarine_shale": "Crystal Aquamarine Shale",
+	"block.contenttweaker.midnight_aquamarine_shale": "Midnight Aquamarine Shale",
+	"block.contenttweaker.strange_aquamarine_shale": "Strange Aquamarine Shale"
 }

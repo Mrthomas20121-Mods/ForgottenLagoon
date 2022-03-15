@@ -3,10 +3,29 @@
 import mods.contenttweaker.block.BlockBuilder;
 import mods.contenttweaker.block.basic.BlockBuilderBasic;
 
-new BlockBuilder(<blockmaterial:rock>)
+// strange sand aquamarine shale
+new BlockBuilder(<blockmaterial:sand>)
+    .setRequiresTool()
+    .withHardnessAndResistance(0.5f)
+    .withHarvestLevel(1)
+    .withHarvestTool(<tooltype:shovel>)
     .withType<BlockBuilderBasic>()
-    .build("sapphire_ore");
+    .build("strange_aquamarine_shale");
 
-new BlockBuilder(<blockmaterial:rock>)
+// crystral aquamarine shale
+new BlockBuilder(<blockmaterial:sand>)
+    .setRequiresTool()
+    .withHardnessAndResistance(0.5f)
+    .withHarvestLevel(1)
+    .withHarvestTool(<tooltype:shovel>)
     .withType<BlockBuilderBasic>()
-    .build("ruby_ore");
+    .build("crystal_aquamarine_shale");
+
+// midnight aquamarine shale
+new BlockBuilder(<blockmaterial:sand>)
+    .setRequiresTool()
+    .withHardnessAndResistance(0.5f)
+    .withHarvestLevel(1)
+    .withHarvestTool(<tooltype:shovel>)
+    .withType<BlockBuilderBasic>()
+    .build("midnight_aquamarine_shale");
