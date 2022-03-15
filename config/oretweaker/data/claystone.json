@@ -4,49 +4,51 @@
         "ore": "betterlands:claystone",
         "filler": "minecraft:white_terracotta",
         "minY": 1,
-        "maxY": 64,
+        "maxY": 128,
         "maxVeinSize": 5,
-        "spawnRate": 7.0,
+        "spawnRate": 15.0,
         "biomeBlacklist": [],
-        "biomeWhitelist": [
-          "MESA"
-        ]
+        "biomeWhitelist": []
       },
       {
         "ore": "betterlands:claystone",
         "filler": "minecraft:light_gray_terracotta",
         "minY": 1,
-        "maxY": 64,
+        "maxY": 128,
         "maxVeinSize": 5,
         "spawnRate": 15.0,
         "biomeBlacklist": [],
-        "biomeWhitelist": [
-          "MESA"
-        ]
+        "biomeWhitelist": []
       },
       {
         "ore": "betterlands:claystone",
         "filler": "minecraft:light_blue_terracotta",
         "minY": 1,
-        "maxY": 64,
+        "maxY": 128,
         "maxVeinSize": 5,
-        "spawnRate": 7.0,
+        "spawnRate": 15.0,
         "biomeBlacklist": [],
-        "biomeWhitelist": [
-          "MESA"
-        ]
+        "biomeWhitelist": []
       },
       {
         "ore": "betterlands:claystone",
         "filler": "minecraft:lime_terracotta",
         "minY": 1,
-        "maxY": 64,
+        "maxY": 128,
         "maxVeinSize": 5,
-        "spawnRate": 7.0,
+        "spawnRate": 15.0,
         "biomeBlacklist": [],
-        "biomeWhitelist": [
-          "MESA"
-        ]
+        "biomeWhitelist": []
+      },
+      {
+        "ore": "betterlands:claystone",
+        "filler": "minecraft:terracotta",
+        "minY": 1,
+        "maxY": 128,
+        "maxVeinSize": 5,
+        "spawnRate": 15.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
       }
     ]
   }
