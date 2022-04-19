@@ -3,23 +3,23 @@
 	group: "0A4F35E50AD40BE3"
 	order_index: 0
 	filename: "start"
-	title: "A new world to explore."
+	title: "&f&nGetting Started"
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Getting Started"
+			title: "&f&nGetting Started"
 			icon: "genericeco:aspen_sign"
 			x: -2.0d
 			y: 0.0d
 			shape: "rsquare"
-			subtitle: "This is the start of the journey!"
+			subtitle: "This is the start of your journey!"
 			description: [
 				"Things to note in this modpack :"
-				"&e- Vanilla Tools do not works and only used in crafting. You will use Tinkers Tools instead."
+				"&f- Vanilla Tools do not works and are only used in crafting. You will use Tinkers Tools instead."
 				""
-				"&e- Dimensions are locked behind certain items(You can create the portals but not go through it). See the Dimensions Chapter for more information."
+				"&f- &2Dimensions&r are locked behind certain items. See the Dimensions Chapter for more information."
 				""
 			]
 			size: 1.2d
@@ -291,18 +291,20 @@
 			}]
 		}
 		{
+			title: "&7Claystone &6[Optional]"
 			x: -3.5d
 			y: -3.0d
 			description: [
-				"&eClaystone is the best source of seared stone."
+				"&eClaystone is an alternative way to get seared stone."
 				""
-				"&eIt can be found in badlands biomes. &aLush badlands&e is the ideal biome to find Claystone."
+				"&eClaystone can be found in any biome with terracotta(Badlands, Canyon, etc...)."
+				"&eBadlands is the ideal biome to get &aclaystone&e."
 			]
 			id: "3752094F204A2813"
 			tasks: [{
 				id: "3B491E78B6A966D5"
 				type: "item"
-				title: "Claystone(Optional)"
+				title: "Claystone"
 				item: "betterlands:claystone"
 				count: 16L
 			}]

@@ -1,6 +1,31 @@
 import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 
+var recipesToRemove = [
+    "industrialforegoing:machine_frame_pity",
+    "minecraft:piston",
+    "glassential:glass_dark",
+    "glassential:glass_ethereal",
+    "glassential:glass_ghostly",
+    "glassential:glass_light",
+    "glassential:glass_redstone",
+    "rftoolsbase:dimensionalshard",
+    "hostilenetworks:living_matter/overworldian/iron_ingot",
+    "hostilenetworks:living_matter/overworldian/carrot",
+    "hostilenetworks:living_matter/overworldian/potato",
+    "extendedcrafting:basic_table",
+    "extendedcrafting:advanced_table",
+    "extendedcrafting:elite_table",
+    "thermal:machine_furnace",
+    "thermal:machine_sawmill",
+    "thermal:machine_pulverizer",
+    "thermal:machine_smelter"
+] as string[];
+
+for recipeToRemove in recipesToRemove {
+    craftingTable.removeByName(recipeToRemove);
+}
+
 var itemsToRemoveAndHide = [
     <item:tconstruct:copper_ingot>, 
     <item:tconstruct:copper_nugget>,
@@ -38,8 +63,20 @@ var itemsToRemoveAndHide = [
     <item:appliedenergistics2:iron_dust>,
     <item:bloodmagic:ironsand>,
     <item:bloodmagic:goldsand>,
-    <item:bloodmagic:coalsand>
+    <item:bloodmagic:coalsand>,
+    <item:appliedenergistics2:nether_quartz_dust>,
+    <item:eidolon:pewter_blend>
 ] as IItemStack[];
+
+for item in itemsToRemoveAndHide {
+    JEI.hideItem(item);
+    craftingTable.removeRecipe(item);
+}
+
+<tag:items:forge:dusts>.remove(<item:appliedenergistics2:nether_quartz_dust>);
+<tag:items:forge:dusts/quartz>.remove(<item:appliedenergistics2:nether_quartz_dust>);
+<tag:items:appliedenergistics2:nether_quartz_dust>.remove(<item:appliedenergistics2:nether_quartz_dust>);
+<tag:items:appliedenergistics2:dusts/quartz>.remove(<item:appliedenergistics2:nether_quartz_dust>);
 
 // coal dust
 <tag:items:forge:dusts>.remove(<item:bloodmagic:coalsand>);
@@ -108,23 +145,14 @@ var itemsToRemoveAndHide = [
 <tag:items:forge:gears/iron>.remove(<item:titanium:iron_gear>);
 <tag:items:forge:gears/diamond>.remove(<item:titanium:diamond_gear>);
 
-craftingTable.removeByName("hostilenetworks:living_matter/overworldian/iron_ingot");
-craftingTable.removeByName("hostilenetworks:living_matter/overworldian/carrot");
-craftingTable.removeByName("hostilenetworks:living_matter/overworldian/potato");
+// remove charged certus quartz
+<tag:items:appliedenergistics2:crystals/certus>.remove(<item:appliedenergistics2:charged_certus_quartz_crystal>);
+
 blastFurnace.removeByName("tconstruct:common/materials/copper_ingot_blasting");
 furnace.removeByName("tconstruct:common/materials/copper_ingot_smelting");
-blastFurnace.removeByName("thermal:smelting/lead_ingot_from_dust_blasting");
-furnace.removeByName("thermal:smelting/lead_ingot_from_dust_smelting");
-blastFurnace.removeByName("thermal:smelting/lead_ingot_from_ore_blasting");
-furnace.removeByName("thermal:smelting/lead_ingot_from_ore_smelting");
 
 furnace.removeByName("tconstruct:smeltery/scorched/scorched_brick");
 furnace.removeByName("tconstruct:smeltery/seared/seared_brick");
-
-for item in itemsToRemoveAndHide {
-    JEI.hideItem(item);
-    craftingTable.removeRecipe(item);
-}
 
 // hide categories
 JEI.hideCategory("blue_skies:alchemy");
@@ -151,4 +179,13 @@ hideRegex("forbidden_arcanus:edelwood_.*_bucket");
 function hideRegex(regex as string) as void {
     craftingTable.removeByRegex(regex);
     JEI.hideRegex(regex);
+}
+
+removeFurnaceRecipe("eidolon:smelt_lead_dust", "eidolon:blast_lead_dust");
+removeFurnaceRecipe("eidolon:smelt_lead_ore", "eidolon:blast_lead_ore");
+removeFurnaceRecipe("eidolon:smelt_pewter_blend", "eidolon:blast_pewter_blend");
+
+function removeFurnaceRecipe(furnaceRecipe as string, blastRecipe as string) as void {
+    blastFurnace.removeByName(blastRecipe);
+    furnace.removeByName(furnaceRecipe);
 }

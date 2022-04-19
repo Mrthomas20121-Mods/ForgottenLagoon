@@ -1,0 +1,23 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "tier": 1,
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:advanced_component"
+    },
+    "B": {
+      "item": "extendedcrafting:advanced_catalyst"
+    },
+    "C": {
+      "tag": "forge:workbenches"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:advanced_table"
+  }
+}

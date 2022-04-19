@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:redstone",
+      "amount": 900
+    },
+    {
+      "tag": "forge:molten_regalium",
+      "amount": 288
+    }
+  ],
+  "result": {
+    "fluid": "materialis:molten_flux_infused",
+    "amount": 288
+  },
+  "temperature": 2500
+}

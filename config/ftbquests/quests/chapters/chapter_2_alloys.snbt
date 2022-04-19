@@ -1,0 +1,91 @@
+{
+	id: "077ED02329CE3ADA"
+	group: ""
+	order_index: 0
+	filename: "chapter_2_alloys"
+	title: "&c&nAlloys"
+	icon: "eidolon:pewter_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.0d
+			y: -2.0d
+			description: [
+				"&cPewter&r in this modpack is made by mixing nebu and horizonite together."
+				""
+			]
+			dependencies: [
+				"6781955D12CE65F8"
+				"286242A2298E0CE2"
+			]
+			id: "2F94A3F9AFE0F3C2"
+			tasks: [{
+				id: "3B05AB269E6AA3B7"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+		}
+		{
+			icon: "minecraft:writable_book"
+			x: -8.5d
+			y: -0.5d
+			shape: "rsquare"
+			description: [
+				"&cAlloys&r in this modpack require the smeltery early on and the induction smelter later on."
+				""
+			]
+			size: 1.5d
+			id: "286242A2298E0CE2"
+			tasks: [{
+				id: "08F8AC2761D5BCC8"
+				type: "checkmark"
+				title: "Alloys &c&n[Readme]"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			description: [
+				"&cRedstone alloy&r is made by mixing redstone and silicon together."
+				""
+				"This alloy is the base for all things redstone in this modpack."
+			]
+			dependencies: ["286242A2298E0CE2"]
+			id: "4F9D945ECD25B262"
+			tasks: [{
+				id: "4A573AF57ED23C63"
+				type: "item"
+				item: "terminal_voyage:redstone_alloy_ingot"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			description: [
+				"&cCopper Silicon&r is made by mixing copper and silicon."
+				""
+				"it is the main alloy used to create pipe in this modpack."
+			]
+			dependencies: ["286242A2298E0CE2"]
+			id: "3ADABD57A83E6E13"
+			tasks: [{
+				id: "3025BDBC3A55BDD6"
+				type: "item"
+				item: "terminal_voyage:copper_silicon_ingot"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			description: ["&cFlux-Infused&r is made by mixing redstone with regalium in this modpack."]
+			dependencies: ["286242A2298E0CE2"]
+			id: "33B0AD631B5CAC73"
+			tasks: [{
+				id: "272B973B1EA1BEFA"
+				type: "item"
+				item: "redstone_arsenal:flux_ingot"
+			}]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CRC",
+    "GBG",
+    " P "
+  ],
+  "key": {
+    "B": {
+      "item": "blue_skies:ventium_bucket"
+    },
+    "C": {
+      "tag": "forge:ingots/horizonite"
+    },
+    "G": {
+      "item": "atum:crystal_glass"
+    },
+    "P": {
+      "item": "thermal:redstone_servo"
+    },
+    "R": {
+      "item": "thermal:cured_rubber"
+    }
+  },
+  "result": {
+    "item": "thermal:fluid_reservoir"
+  }
+}

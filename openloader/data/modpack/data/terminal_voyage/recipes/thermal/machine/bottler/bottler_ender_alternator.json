@@ -1,0 +1,17 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "betterendforge:quartz_pedestal"
+    },
+    {
+      "fluid_tag": "forge:ender",
+      "amount": 250
+    }
+  ],
+  "result": [
+    {
+      "item": "extendedcrafting:ender_alternator"
+    }
+  ]
+}

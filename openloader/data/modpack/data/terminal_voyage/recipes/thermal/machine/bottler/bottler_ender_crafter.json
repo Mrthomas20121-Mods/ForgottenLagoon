@@ -1,0 +1,17 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:advanced_table"
+    },
+    {
+      "fluid_tag": "forge:ender",
+      "amount": 250
+    }
+  ],
+  "result": [
+    {
+      "item": "extendedcrafting:ender_crafter"
+    }
+  ]
+}

@@ -26,11 +26,11 @@ function petalRecipe(flower as IItemStack, petal as IItemStack) as void {
     var name = flower.registryName.getPath()+"_to_petal";
     craftingTable.addShapeless(name, petal*2, [flower, <item:blue_skies:moonstone>]);
     <recipetype:thermal:pulverizer>.addRecipe(name, [petal*3 % 100, petal*2 % 50, <item:thermal:cinnabar_dust> % 10] , flower, 2, 1000);
-    <recipetype:lazierae2:pulse_centrifuge>.addRecipe(name, petal*8, flower);
+    <recipetype:lazierae2:centrifuge>.addRecipe(name, petal*8, 70, 4000, flower);
 }
 
 function blockPetalRecipe(block as IItemStack, petal as IItemStack) as void {
     var name = block.registryName.getPath()+"_to_petal";
     <recipetype:thermal:pulverizer>.addRecipe(name, [petal*4 % 100, petal*2 % 50, <item:thermal:cinnabar_dust> % 30] , block, 2, 500);
-    <recipetype:lazierae2:pulse_centrifuge>.addRecipe(name, petal*9, block);
+    <recipetype:lazierae2:centrifuge>.addRecipe(name, petal*9, 70, 4000, block);
 }

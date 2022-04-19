@@ -1,0 +1,345 @@
+{
+	id: "1E3EACCD58CC801B"
+	group: "703E094B82BD2A66"
+	order_index: 1
+	filename: "atum"
+	title: "&6&nAtum"
+	icon: "atum:sand"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&6&nAtum: The Beginning"
+			x: -1.5d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"&2The Atum&r is a dangerous dimension."
+				""
+				"It is recommended to enter the atum with no armors/weapons."
+				"You will find armors parts in ruins and pyramids."
+			]
+			size: 1.5d
+			id: "2375A428C377EF60"
+			tasks: [{
+				id: "31381BBC62F33A3C"
+				type: "dimension"
+				dimension: "atum:atum"
+			}]
+			rewards: [{
+				id: "0575B7B684B7F3FD"
+				type: "item"
+				item: "atum:sand"
+				count: 5
+			}]
+		}
+		{
+			title: "&6&nKiln"
+			x: 0.5d
+			y: 1.5d
+			description: [
+				"&2The Kiln&r is a 2x2x2 Multiblock, consisting of 6 Small Limestone Bricks and 2 Kiln blocks."
+				""
+				"Place the two Kiln Blocks on the top side of the front to complete it."
+			]
+			dependencies: ["2375A428C377EF60"]
+			id: "529C0FC6537B5E4F"
+			tasks: [
+				{
+					id: "5B6E75E10388F66A"
+					type: "item"
+					item: "atum:kiln"
+					count: 2L
+				}
+				{
+					id: "6B863C5DAC8DB412"
+					type: "item"
+					item: "atum:limestone_brick_small"
+					count: 6L
+				}
+			]
+		}
+		{
+			title: "&6&nSilicon"
+			x: 2.0d
+			y: 1.5d
+			description: ["&2Silicon&r early on is obtained by putting quartz in the atum kiln."]
+			dependencies: ["529C0FC6537B5E4F"]
+			id: "5FC94F295CBD1AA7"
+			tasks: [{
+				id: "1A35A760938E4629"
+				type: "item"
+				item: "appliedenergistics2:silicon"
+			}]
+		}
+		{
+			title: "&6&nNot a Desert Temple"
+			icon: "atum:ptah_godshard"
+			x: -5.0d
+			y: 0.0d
+			description: [
+				"The pyramid is a structure you can find in the atum."
+				""
+				"Silver can only be found in the pyramid chests."
+			]
+			dependencies: ["6781955D12CE65F8"]
+			id: "1031E482AC7300F1"
+			tasks: [{
+				id: "36A025B02F2B36FA"
+				type: "structure"
+				title: "&6&nFind a pyramid structure"
+				structure: "atum:pyramid"
+			}]
+			rewards: [{
+				id: "6A9858633EADEBD8"
+				type: "item"
+				item: "atum:emmer_block"
+			}]
+		}
+		{
+			title: "&6&nNebu"
+			icon: "atum:nebu_ore"
+			x: -3.5d
+			y: 0.0d
+			description: [
+				"&6Nebu&r is an ore found underground."
+				""
+				"Nebu is require to enter the pyramid."
+				""
+				"Craft Nebu torches and put 2 torches on the pyramid door."
+			]
+			dependencies: ["2375A428C377EF60"]
+			id: "6781955D12CE65F8"
+			tasks: [
+				{
+					id: "0154F9E34FFD1FC4"
+					type: "item"
+					item: "atum:nebu_ore"
+				}
+				{
+					id: "655252D5FD32BECC"
+					type: "item"
+					item: "atum:nebu_drop"
+				}
+				{
+					id: "2C619FE0A24ED47D"
+					type: "item"
+					item: "atum:nebu_torch"
+				}
+			]
+			rewards: [{
+				id: "65382FC8F6596DB6"
+				type: "item"
+				item: "atum:nebu_drop"
+				count: 9
+			}]
+		}
+		{
+			title: "&6&nBituminous sand"
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"&6Bituminous sand&r is the first step in oil production."
+				""
+			]
+			dependencies: ["2375A428C377EF60"]
+			id: "42176104810BD436"
+			tasks: [{
+				id: "74B2A7A1C9CDD88D"
+				type: "item"
+				item: "thermal:oil_sand"
+			}]
+		}
+		{
+			title: "&6&nOil"
+			icon: "thermal:crude_oil_bucket"
+			x: -1.5d
+			y: -1.5d
+			subtitle: "My precious..."
+			description: ["&6Oil&r is obtained by melting Bituminous sand in the smeltery."]
+			dependencies: ["42176104810BD436"]
+			id: "6BA7C1BEC518BEED"
+			tasks: [{
+				id: "0C3280FCCCF9A63F"
+				type: "checkmark"
+				title: "Oil"
+			}]
+		}
+		{
+			title: "&6&nLocate a Oasis biome"
+			icon: "atum:oasis_grass"
+			x: -3.5d
+			y: 1.5d
+			description: [
+				"&6Flax Seeeds&r can be found in an Oasis biome."
+				""
+				"You get flax seeds by breaking grass or tall grass."
+				""
+				"Mobs do not spawn in an Oasis biome."
+			]
+			dependencies: ["2375A428C377EF60"]
+			id: "7486C701A30F51FD"
+			tasks: [{
+				id: "41379054B0AED703"
+				type: "biome"
+				title: "&6&nLocate an Oasis biome"
+				icon: "atum:fertile_soil"
+				biome: "atum:oasis"
+			}]
+		}
+		{
+			title: "&6&nFlax"
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["7486C701A30F51FD"]
+			id: "05C14E748E903A71"
+			tasks: [
+				{
+					id: "37C19E2B436630EE"
+					type: "item"
+					item: "atum:flax_seeds"
+				}
+				{
+					id: "1FF1C03F0A1BD17A"
+					type: "item"
+					item: "atum:flax"
+				}
+			]
+			rewards: [{
+				id: "73140CFF444D329A"
+				type: "item"
+				item: "atum:flax"
+				count: 7
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: [
+				"&6Aquamarine&r can be found in the atum."
+				""
+				"It is just another source of aquamarine."
+			]
+			dependencies: ["2375A428C377EF60"]
+			id: "47C25370A6B76644"
+			tasks: [{
+				id: "4C89A75A10E65B44"
+				type: "item"
+				item: "terminal_voyage:strange_aquamarine_shale_ore"
+			}]
+		}
+		{
+			title: "&6&nLinen Thread"
+			x: -6.5d
+			y: 1.5d
+			dependencies: ["05C14E748E903A71"]
+			id: "4201BFB16EC81A7C"
+			tasks: [
+				{
+					id: "78D5161D46E39A3B"
+					type: "item"
+					item: "atum:linen_thread"
+				}
+				{
+					id: "39DEF2B24DCF23AC"
+					type: "item"
+					item: "atum:spinning_wheel"
+				}
+				{
+					id: "7A811F3376FA1B89"
+					type: "item"
+					item: "atum:linen_cloth"
+					count: 5L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			dependencies: ["4201BFB16EC81A7C"]
+			id: "761902BE79CCC202"
+			tasks: [{
+				id: "08E3481542DA2D50"
+				type: "item"
+				item: {
+					id: "atum:wanderer_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&6&nPewter"
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["6781955D12CE65F8"]
+			id: "2FAE2152698EADFD"
+			tasks: [{
+				id: "1555C1B20EC05C8D"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+		}
+		{
+			title: "&6&nIron Backpack Upgrade"
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["2FAE2152698EADFD"]
+			id: "174C884295788BE6"
+			tasks: [{
+				id: "57360194BFA30169"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		}
+		{
+			title: "&6&nPalm Wood"
+			x: -3.5d
+			y: 3.0d
+			description: ["&6Palm trees&r are found in oasis biomes."]
+			dependencies: ["7486C701A30F51FD"]
+			id: "71BC3BCAEA6C8DCE"
+			tasks: [{
+				id: "205F0E6293F62955"
+				type: "item"
+				item: "atum:palm_planks"
+			}]
+		}
+		{
+			title: "&6&nCrystal Glass"
+			x: -1.5d
+			y: 3.0d
+			description: ["&6Crystal glass&r is obtained by smelting strange sand."]
+			dependencies: ["2375A428C377EF60"]
+			id: "5E35430C9EEA64A3"
+			tasks: [{
+				id: "20E8F0F577D65C1F"
+				type: "item"
+				item: "atum:crystal_glass"
+			}]
+		}
+		{
+			title: "&6&nPalm Framed Crystal Glass"
+			x: -3.5d
+			y: 4.5d
+			dependencies: [
+				"71BC3BCAEA6C8DCE"
+				"5E35430C9EEA64A3"
+			]
+			id: "2B1DF23AC2B29850"
+			tasks: [{
+				id: "57002D866FFF94FE"
+				type: "item"
+				item: "atum:palm_framed_crystal_glass"
+			}]
+			rewards: [{
+				id: "11A7662805CA11AB"
+				type: "item"
+				item: "atum:palm_framed_crystal_glass"
+				count: 63
+			}]
+		}
+	]
+}

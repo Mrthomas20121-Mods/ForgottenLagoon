@@ -1,0 +1,10 @@
+{
+	"type": "lazierae2:centrifuge",
+    "processing_time": 100,
+    "output": {
+        "item": "appliedenergistics2:silicon"
+    },
+    "input": {
+        "tag": "appliedenergistics2:dusts/quartz"
+    }
+}

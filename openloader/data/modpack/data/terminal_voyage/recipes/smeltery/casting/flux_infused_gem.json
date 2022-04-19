@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "blue_skies:pyrope_gem"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_flux_infused",
+    "amount": 144
+  },
+  "result": {
+    "item": "redstone_arsenal:flux_gem"
+  },
+  "cooling_time": 80
+}

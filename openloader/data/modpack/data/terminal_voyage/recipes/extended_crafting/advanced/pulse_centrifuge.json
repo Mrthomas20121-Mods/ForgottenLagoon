@@ -1,0 +1,34 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "tier": 2,
+  "pattern": [
+    "ABCBA",
+    "BCDCB",
+    "BAEAB",
+    "BCFCB",
+    "ABCBA",
+  ],
+  "key": {
+    "A": {
+      "item": "terminal_voyage:steel_ingot"
+    },
+    "B": {
+      "item": "natureminerals:astrite_ingot"
+    },
+    "C": {
+      "item": "lazierae2:fluix_steel_ingot"
+    },
+    "D": {
+      "item": "lazierae2:speculative_processor"
+    },
+    "E": {
+      "item": "lazierae2:logic_unit"
+    },
+    "F": {
+      "item": "lazierae2:parallel_processor"
+    }
+  },
+  "result": {
+    "item": ""
+  }
+}

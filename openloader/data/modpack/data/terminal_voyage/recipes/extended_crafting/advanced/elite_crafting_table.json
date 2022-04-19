@@ -1,0 +1,34 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "tier": 2,
+  "pattern": [
+    "ABCBA",
+    "BDEDB",
+    "CEFEC",
+    "BDEDB",
+    "ABCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:elite_component"
+    },
+    "B": {
+      "item": "genericeco:ash_block"
+    },
+    "C": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "D": {
+      "item": "natureminerals:uvarovite_ingot"
+    },
+    "E": {
+      "item": "natureminerals:stibnite_ingot"
+    },
+    "F": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:elite_table"
+  }
+}

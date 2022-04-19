@@ -1,0 +1,11 @@
+{
+	id: "3136E636D4A69711"
+	group: "703E094B82BD2A66"
+	order_index: 2
+	filename: "4nthe_nether"
+	title: "&4&nThe Nether"
+	icon: "minecraft:netherrack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

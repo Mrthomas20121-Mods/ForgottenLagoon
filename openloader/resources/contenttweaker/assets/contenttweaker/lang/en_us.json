@@ -1,7 +1,17 @@
 {
-	"block.contenttweaker.sapphire_ore": "Sapphire Ore",
-	"block.contenttweaker.ruby_ore": "Ruby Ore",
 	"block.contenttweaker.crystal_aquamarine_shale": "Crystal Aquamarine Shale",
 	"block.contenttweaker.midnight_aquamarine_shale": "Midnight Aquamarine Shale",
-	"block.contenttweaker.strange_aquamarine_shale": "Strange Aquamarine Shale"
+	"block.contenttweaker.strange_aquamarine_shale": "Strange Aquamarine Shale",
+	"block.contenttweaker.lunar_dimensional_shard_ore": "Lunar Dimensional Shard Ore",
+	"block.contenttweaker.turquoise_dimensional_shard_ore": "Turquoise Dimensional Shard Ore",
+	"block.contenttweaker.limestone_dimensional_shard_ore": "Limestone Dimensional Shard Ore",
+	"block.contenttweaker.lunar_aluminum_ore": "Lunar Aluminum Ore",
+	"block.contenttweaker.turquoise_aluminum_ore": "Turquoise Aluminum Ore",
+	"block.contenttweaker.nether_aluminum_ore": "Nether Aluminum Ore",
+	"block.contenttweaker.end_aluminum_ore": "End Aluminum Ore",
+	"item.contenttweaker.steel_ingot": "Steel Ingot",
+	"item.contenttweaker.steel_dust": "Steel Dust",
+	"item.contenttweaker.steel_gear": "Steel Gear",
+	"item.contenttweaker.steel_plate": "Steel Plate",
+	"item.contenttweaker.steel_nugget": "Steel Nugget"
 }

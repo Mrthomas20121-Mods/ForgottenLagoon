@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "thermal:ruby_ore",
+      "filler": "blue_skies:lunar_stone",
+      "minY": 1,
+      "maxY": 80,
+      "maxVeinSize": 4,
+      "spawnRate": 10.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

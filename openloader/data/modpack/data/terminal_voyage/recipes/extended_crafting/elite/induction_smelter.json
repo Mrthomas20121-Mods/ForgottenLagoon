@@ -1,0 +1,57 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "tier": 3,
+  "pattern": [
+    "ABBBBBA",
+    "BCDDDCB",
+    "BEFGFEB",
+    "BHFIFHB",
+    "BJFKFJB",
+    "BLMMMLB",
+    "ABBBBBA"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:sand"
+    },
+    "B": {
+      "item": "atum:limestone_brick_small"
+    },
+    "C": {
+      "item": "thermal_extra:polarium_gear"
+    },
+    "D": {
+      "item": "thermal_extra:polarium_dust"
+    },
+    "E": {
+      "item": "thermal_extra:polarium_plate"
+    },
+    "F": {
+      "item": "appliedenergistics2:sky_dust"
+    },
+    "G": {
+      "item": "thermal:machine_furnace"
+    },
+    "H": {
+      "item": "terminal_voyage:steel_ingot"
+    },
+    "I": {
+      "item": "thermal:machine_frame"
+    },
+    "J": {
+      "item": "thermal:netherite_plate"
+    },
+    "K": {
+      "item": "thermal:rf_coil"
+    },
+    "L": {
+      "item": "thermal:netherite_gear"
+    },
+    "M": {
+      "item": "thermal:netherite_dust"
+    }
+  },
+  "result": {
+    "item": "thermal:machine_smelter"
+  }
+}

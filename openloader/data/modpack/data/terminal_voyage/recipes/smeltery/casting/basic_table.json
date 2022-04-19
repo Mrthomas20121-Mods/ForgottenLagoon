@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "forge:molten_pewter",
+    "amount": 144
+  },
+  "cast": {
+    "tag": "forge:workbenches"
+  },
+  "cast_consumed": true,
+  "result": {
+    "item": "extendedcrafting:basic_table"
+  },
+  "cooling_time": 161
+}

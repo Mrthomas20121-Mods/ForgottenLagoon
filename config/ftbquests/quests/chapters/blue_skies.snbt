@@ -1,0 +1,252 @@
+{
+	id: "798BAC10268E84ED"
+	group: "703E094B82BD2A66"
+	order_index: 0
+	filename: "blue_skies"
+	title: "&9&nBlue Skies"
+	icon: "blue_skies:blue_journal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&9&nEverbright: The Beginning"
+			x: -0.5d
+			y: 1.0d
+			id: "101EEAEF55ABCE1C"
+			tasks: [{
+				id: "20D149466DBBBCCF"
+				type: "dimension"
+				dimension: "blue_skies:everbright"
+			}]
+		}
+		{
+			title: "&9&nEverdawn: The Beginning"
+			x: -0.5d
+			y: 0.0d
+			id: "19C439F1CCF7EDFB"
+			tasks: [{
+				id: "0A87BFEEA6B2BB3E"
+				type: "dimension"
+				dimension: "blue_skies:everdawn"
+			}]
+		}
+		{
+			title: "&9&nCrystal Aquamarine"
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["19C439F1CCF7EDFB"]
+			id: "013B31C9BA1A7EE1"
+			tasks: [{
+				id: "052AFDBE17452F21"
+				type: "item"
+				item: "terminal_voyage:crystal_aquamarine_shale_ore"
+			}]
+		}
+		{
+			title: "&9&nMidnight Aquamarine"
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["101EEAEF55ABCE1C"]
+			id: "5A4255F0DDA9FBC9"
+			tasks: [{
+				id: "6C88B365A2B53D27"
+				type: "item"
+				item: "terminal_voyage:midnight_aquamarine_shale_ore"
+			}]
+		}
+		{
+			title: "&9&nHorizonite"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["19C439F1CCF7EDFB"]
+			id: "042B738B0C8459FE"
+			tasks: [
+				{
+					id: "0C235CA057EEAE1C"
+					type: "item"
+					item: "blue_skies:horizonite_ore"
+				}
+				{
+					id: "66CA90918DFA6C74"
+					type: "item"
+					item: "blue_skies:horizonite_ingot"
+				}
+			]
+			rewards: [{
+				id: "69334FB32EDE52ED"
+				type: "item"
+				item: "blue_skies:horizonite_ore"
+				count: 3
+			}]
+		}
+		{
+			title: "&9&nCommon Ores"
+			x: -2.0d
+			y: -1.5d
+			description: ["All of these ores can be found in the everdawn and the everbright."]
+			id: "715A049FB83EC8B7"
+			tasks: [
+				{
+					id: "6E7062512D7925E4"
+					type: "item"
+					title: "Any #forge:ores/diopside"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/diopside"
+						}
+					}
+				}
+				{
+					id: "7E99D04CB9E30434"
+					type: "item"
+					title: "Any #blue_skies:ores/pyrope"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/pyrope"
+						}
+					}
+				}
+				{
+					id: "06D3B63AFF589C17"
+					type: "item"
+					title: "Any #forge:ores/aquite"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/aquite"
+						}
+					}
+				}
+				{
+					id: "5384B82E9ED69B14"
+					type: "item"
+					title: "Any #forge:ores/charoite"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/charoite"
+						}
+					}
+				}
+				{
+					id: "4FC4B991FFE8FCC7"
+					type: "item"
+					title: "Any #forge:ores/moonstone"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ores/moonstone"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&9&nPyrope Gemstone"
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["715A049FB83EC8B7"]
+			id: "4E00702CEBAE82BA"
+			tasks: [{
+				id: "6AA7BEC6ED50A12E"
+				type: "item"
+				item: "blue_skies:pyrope_gem"
+			}]
+			rewards: [{
+				id: "5627A73164647AB1"
+				type: "item"
+				item: "blue_skies:pyrope_gem"
+				count: 5
+			}]
+		}
+		{
+			title: "&9&nFlux-Infused Gem"
+			x: -5.0d
+			y: -1.5d
+			description: ["Flux-Infused gem is crafted by pouring Flux-Infused metal on a pyrope gem."]
+			dependencies: [
+				"4E00702CEBAE82BA"
+				"33B0AD631B5CAC73"
+			]
+			id: "178577B6C8DFB738"
+			tasks: [{
+				id: "248531FF1CB37891"
+				type: "item"
+				item: "redstone_arsenal:flux_gem"
+			}]
+		}
+		{
+			title: "&9&nSmeltery"
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["042B738B0C8459FE"]
+			id: "570026F3063EACAE"
+			tasks: [
+				{
+					id: "79303DFA74E99B62"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "0B92C19E131C0E2E"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+			]
+		}
+		{
+			title: "&9&nCinderstone"
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"&9Cinderstone&r is a stone found underground in the everdawn."
+				""
+				"It is used to craft Piston."
+			]
+			dependencies: ["19C439F1CCF7EDFB"]
+			id: "501F221A8E510597"
+			tasks: [{
+				id: "7D35442AFB1C090B"
+				type: "item"
+				item: "blue_skies:cinderstone"
+			}]
+			rewards: [{
+				id: "3F68AB19252A4B91"
+				type: "item"
+				item: "blue_skies:cinderstone"
+				count: 9
+			}]
+		}
+		{
+			title: "&9&nPiston"
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["501F221A8E510597"]
+			id: "55C048C53569A544"
+			tasks: [{
+				id: "34DA19D18E2994EB"
+				type: "item"
+				item: "minecraft:piston"
+			}]
+		}
+		{
+			title: "&9&nFluid Cell Frame"
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["2B1DF23AC2B29850"]
+			id: "22C1123F8A97599F"
+			tasks: [{
+				id: "0CC5440DB7D22665"
+				type: "item"
+				item: "thermal:fluid_cell_frame"
+			}]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:shaped_table",
+	"tier": 2,
+    "pattern": [
+      "ABBBA",
+      "BCCCB",
+      "DCCCD",
+      "ECCCE",
+      "AEEEA"
+    ],
+    "key": {
+      "A": {
+        "item": "terminal_voyage:steel_block"
+      },
+      "B": {
+        "item": "thermal:tin_ingot"
+      },
+      "C": {
+        "item": "atum:palm_framed_crystal_glass"
+      },
+      "D": {
+        "item": "blue_skies:horizonite_ingot"
+      },
+      "E": {
+        "item": "blue_skies:falsite_ingot"
+      }
+    },
+    "result": {
+      "item": "thermal:machine_frame"
+    }
+  }

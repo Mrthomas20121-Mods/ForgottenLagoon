@@ -1,0 +1,18 @@
+{
+  "type": "thermal:refinery",
+  "ingredient": {
+    "fluid_tag": "forge:molten_limestone",
+    "amount": 200
+  },
+  "result": [
+    {
+      "fluid": "terminal_voyage:sky_stone",
+      "amount": 100
+    },
+    {
+      "fluid": "thermal:latex",
+      "amount": 50
+    }
+  ],
+  "energy": 6000
+}

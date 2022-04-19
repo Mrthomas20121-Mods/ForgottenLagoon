@@ -1,0 +1,34 @@
+{
+    "type": "extendedcrafting:shaped_table",
+	"tier": 2,
+    "pattern": [
+      "ABBBA",
+      "BCDCB",
+      "BEFEB",
+      "BCDCB",
+      "ABBBA"
+    ],
+    "key": {
+      "A": {
+        "item": "terminal_voyage:copper_silicon_gear"
+      },
+      "B": {
+        "item": "atum:limestone_brick_small"
+      },
+      "C": {
+        "item": "terminal_voyage:redstone_alloy_plate"
+      },
+      "D": {
+        "item": "thermal:redstone_servo"
+      },
+      "E": {
+        "item": "thermal:rf_coil"
+      },
+      "F": {
+        "item": "thermal:machine_frame"
+      }
+    },
+    "result": {
+      "item": "thermal:machine_furnace"
+    }
+  }

@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "genericeco:ash_dust"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_iron",
+    "amount": 144
+  },
+  "result": {
+    "item": "extendedcrafting:black_iron_ingot"
+  },
+  "cooling_time": 80
+}

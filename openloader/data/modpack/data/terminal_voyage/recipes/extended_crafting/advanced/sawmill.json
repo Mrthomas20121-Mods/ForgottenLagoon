@@ -1,0 +1,37 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "tier": 2,
+	"pattern": [
+      "ABBBA",
+      "BCDCB",
+      "BEFEB",
+      "BCGCB",
+      "ABBBA"
+    ],
+    "key": {
+      "A": {
+        "item": "terminal_voyage:copper_silicon_gear"
+      },
+      "B": {
+        "item": "atum:limestone_brick_small"
+      },
+      "C": {
+        "item": "thermal_extra:nectium_plate"
+      },
+      "D": {
+        "item": "thermal:saw_blade"
+      },
+      "E": {
+        "item": "thermal:rf_coil"
+      },
+      "F": {
+        "item": "thermal:machine_frame"
+      },
+      "G": {
+        "item": "appliedenergistics2:sky_dust"
+      }
+    },
+    "result": {
+      "item": "thermal:machine_sawmill"
+    }
+  }

@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "betterendforge:quartz_pedestal"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:ender",
+    "amount": 250
+  },
+  "result": {
+    "item": "extendedcrafting:ender_alternator"
+  },
+  "cooling_time": 80
+}

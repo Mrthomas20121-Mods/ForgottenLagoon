@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/hallowed_gold"
+  },
+  "result": {
+    "fluid": "terminal_voyage:hallowed_gold",
+    "amount": 144
+  },
+  "temperature": 2100,
+  "time": 54
+}

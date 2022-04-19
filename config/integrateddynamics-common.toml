@@ -32,6 +32,8 @@
 		energyRateLimit = 2147483647
 		#If network change events should be logged. Only enable this when debugging.
 		logChangeEvents = false
+		#The maximum frequency at which speach messages can be played in millis.
+		speachMaxFrequency = 1000
 
 [general]
 
@@ -136,6 +138,10 @@
 	[machine.invisible_light]
 		#If invisible light should act as full a block
 		invisibleLightBlock = true
+
+	[machine.cable]
+		#If cable shapes should be determined dynamically. Disable this if FPS issues would occur.
+		dynamicShape = true
 
 [worldgeneration]
 

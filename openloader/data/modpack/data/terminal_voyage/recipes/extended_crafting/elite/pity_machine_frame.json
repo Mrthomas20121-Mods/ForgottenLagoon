@@ -1,0 +1,39 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "tier": 3,
+    "pattern": [
+      "AABBBAA",
+      "ACDEDCA",
+      "BDFEFDB",
+      "BEEGEEB",
+      "BDFEFDB",
+      "ACDEDCA",
+      "AABBBAA"
+    ],
+    "key": {
+      "A": {
+        "tag": "minecraft:planks"
+      },
+      "B": {
+        "tag": "forge:cobblestone"
+      },
+      "C": {
+        "item": "terminal_voyage:steel_plate"
+      },
+      "D": {
+        "item": "terminal_voyage:redstone_alloy_gear"
+      },
+      "E": {
+        "item": "terminal_voyage:steel_ingot"
+      },
+      "F": {
+        "item": "thermal_extra:polarium_plate"
+      },
+      "G": {
+        "item": "thermal:redstone_servo"
+      }
+    },
+    "result": {
+      "item": "industrialforegoing:machine_frame_pity"
+    }
+  }

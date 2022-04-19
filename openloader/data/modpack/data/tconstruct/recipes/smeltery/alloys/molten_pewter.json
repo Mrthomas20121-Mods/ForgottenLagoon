@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:alloy",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/pewter",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:molten_nebu",
+      "amount": 144
+    },
+    {
+      "tag": "forge:molten_hallowed_gold",
+      "amount": 144
+    },
+	{
+      "tag": "forge:molten_sky_stone",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_pewter",
+    "amount": 288
+  },
+  "temperature": 2000
+}

@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "iron_backpack",
+      "type": "sophisticatedbackpacks:item_enabled"
+    }
+  ],
+  "pattern": [
+    "HIH",
+    "IBI",
+    "HIH"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/pewter"
+    },
+	"H": {
+      "tag": "forge:ingots/horizonite"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:backpack"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:iron_backpack"
+  }
+}
